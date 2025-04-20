@@ -5,5 +5,3 @@ services:
     buildCommand: ./mvnw clean install
     startCommand: java -jar target/*.jar
     plan: free
-    branches:
-      - main
